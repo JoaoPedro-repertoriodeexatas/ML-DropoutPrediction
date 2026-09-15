@@ -1,0 +1,13 @@
+# Dependências adicionais para rodar os testes e os notebooks de
+# experimentação — não fazem parte da execução mínima da pipeline
+# (essa está em requirements.txt). Ver README.md, seção 7 (Instalação).
+-r requirements.txt
+
+pytest>=8.0
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.11
+jupyter>=1.0
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.29
